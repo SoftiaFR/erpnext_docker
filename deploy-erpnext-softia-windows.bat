@@ -1,6 +1,5 @@
 @echo off
 prompt $G
-chcp 65001 >nul
 setlocal enabledelayedexpansion
 
 REM Charger les variables d'environnement depuis .env
