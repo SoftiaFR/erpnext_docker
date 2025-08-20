@@ -62,7 +62,7 @@ goto frappe_loop
 del temp_output.txt
 
 REM Étape 4 : Activer le mode développeur
-echo Activation mode développeur eto ...
+echo Activation mode développeur ...
 docker compose exec backend bash -c "jq '. + {developer_mode: 1}' sites/frontend/site_config.json > sites/frontend/site_config.json.tmp && mv sites/frontend/site_config.json.tmp sites/frontend/site_config.json"
 if errorlevel 1 (
     echo ERREUR: Échec activation mode développeur. Abandon.
