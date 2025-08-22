@@ -23,9 +23,16 @@ Avant de commencer, assurez-vous que votre machine dispose de :
    [Guide officiel](https://docs.docker.com/desktop/setup/install/windows-install/)  
 2. Téléchargez le projet au format ZIP : [erpnext-docker-main.zip](https://github.com/SoftiaFR/erpnext_docker/archive/refs/heads/main.zip)
 3. Décompressez le fichier télécharger
-4. Dans le dossier décompressé, double-cliquez sur le fichier `deploy-erpnext-softia-windows.bat` et attendre que l'installation soit terminer.
+4. Dans le dossier décompressé, double-cliquez sur le fichier `deploy-erpnext-softia-windows.bat`
+
+   Une fenêtre avec le message ci-dessous peut apparaître (ou non) :  
+   > **« Impossible de vérifier l’éditeur. Voulez-vous vraiment exécuter ce logiciel ? »**
+   
+   Cliquez sur **Exécuter** pour lancer.
+   
+5. Attendre que l'installation soit terminée.
 ![Déploiement Terminé.](images/deploiement_terminée.png)
-1. Une fois l’installation terminée, ouvrez dans votre navigateur :
+6. Une fois l’installation terminée, ouvrez dans votre navigateur :
    ```
    http://localhost:9090
    ```
