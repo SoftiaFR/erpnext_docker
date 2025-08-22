@@ -36,8 +36,8 @@ Avant de commencer, assurez-vous que votre machine dispose de :
 ### Sous Linux / MacOS
 1. Clonez le dépôt depuis votre terminal :
    ```bash
-   git clone https://github.com/SoftiaFR/erpnext_softia_fr
-   cd erpnext_softia_fr
+   git clone https://github.com/SoftiaFR/erpnext_docker
+   cd erpnext_docker
    ```
 2. Lancez le script d’installation :
    ```bash
