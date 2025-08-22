@@ -47,7 +47,7 @@ fi
 echo "Activation mode developpeur ..."
 sudo docker compose exec backend bash -c "sed -i '\#}#i \  ,\"developer_mode\": 1' sites/frontend/site_config.json"
 if [ $? -ne 0 ]; then
-  echo "Échec actiovation mode developpeur. Abandon."
+  echo "Échec activation mode developpeur. Abandon."
   exit 1
 fi
 

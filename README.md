@@ -21,7 +21,7 @@ Avant de commencer, assurez-vous que votre machine dispose de :
 ### Sous Windows
 1. **Installez Docker Desktop** et activez **WSL 2** (obligatoire)  
    [Guide officiel](https://docs.docker.com/desktop/setup/install/windows-install/)  
-2. Téléchargez le projet au format ZIP : [erpnext_docker-main.zip](https://github.com/SoftiaFR/erpnext_docker/archive/refs/heads/main.zip)
+2. Téléchargez le projet au format ZIP : [erpnext-docker-main.zip](https://github.com/SoftiaFR/erpnext_docker/archive/refs/heads/main.zip)
 3. Décompressez le fichier télécharger
 4. Dans le dossier décompressé, double-cliquez sur le fichier `deploy-erpnext-softia-windows.bat` et attendre que l'installation soit terminer.
 ![Déploiement Terminé.](images/deploiement_terminée.png)
